@@ -1,0 +1,6 @@
+.navbar-custom-menu h4{ margin:0;}
+#print-area{
+	display:block;
+	width:100%;
+	overflow:auto;
+}
