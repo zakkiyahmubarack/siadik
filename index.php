@@ -21,6 +21,9 @@ $iden=mysqli_fetch_assoc(mysqli_query($koneksi,"select * from tbl_identitas orde
  
   <link rel="stylesheet" href="<?php echo base_url()."/assets/AdminLTE/dist"; ?>/css/AdminLTE.min.css">
   <link rel="stylesheet" href="<?php echo base_url()."/assets/AdminLTE/dist"; ?>/css/skins/skin-blue.min.css">
+  <script src="<?php echo base_url()."/assets/AdminLTE/"; ?>plugins/jQuery/jquery-2.2.3.min.js"></script>
+  <script src="<?php echo base_url()."/assets/AdminLTE/"; ?>bootstrap/js/bootstrap.min.js"></script>
+  <script src="<?php echo base_url()."/assets/AdminLTE/"; ?>dist/js/app.min.js"></script>
   <script language="javascript">
     	function printDiv(divName) {
 			 var printContents = document.getElementById(divName).innerHTML;
